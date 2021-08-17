@@ -14,13 +14,12 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+***[![Contributors][contributors-shield]][contributors-url]
+***[![Forks][forks-shield]][forks-url]
+***[![Stargazers][stars-shield]][stars-url]
+***[![Issues][issues-shield]][issues-url]
+***[![MIT License][license-shield]][license-url]
+***[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -69,7 +68,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -80,14 +78,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png]](https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The main focus of the research project was to outline the current risks and security threats in the IoT landscape today and in particular IoT botnet attacks as well providing detailed techniques to mitigate and protect against these attacks. I believe it is very relevant today because of Covid-19 and the increase in use of IoT devices. Due to the global pandemic, people are working from home and looking for methods to make working from home easier. The implementation of various IoT devices is common in this environment, so it is important that the relevant security measures are in place in whatever network IoT devices are in use. These IoT devices often lack appropriate security measures due to OEM and developers favouring cheaper production cost over the implementation of strong security standards and protocols. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+The Mirai Botnet is the most famous botnet attack relating to internet of things. A detailed analysis of the Mirai malware will be carried out, as well as the implementation of a sandbox environment for the safe execution and analysis of the source code. Mirai caused huge damage when it attacked the DNS service provide Dyn in 2016, so it is important to get an insight into how the botnet functions. From the analysis of the botnet and the research into IoT risks, various mitigation techniques will be proposed for the protection of IoT devices in a network.
+
+The architecture and implementation of my device hardening software, on a high-level, is made up of various technologies and frameworks. To facilitate the development of the software and enable testing with the Mirai malware, a sandbox environment needs to be created using an isolated network of virtual machines. All the machines will be on the same subnet to facilitate intercommunication, but will be isolated from the host network for protection due to the execution of the Mirai source code. My implementation can be broken up into the following high-level steps:
+  Step 1: The initialization and roll out of all the necessary virtual machines for the sandbox environment.
+  Step 2: The configuration of each relevant component in the Mirai Botnet. An understanding of the released source-code is necessary here to understand the purpose of each     feature.
+  Step 3: The execution of the Mirai malware, the goal of this step is to show that the preconfigured VM's simulating IoT devices are vulnerable to infection by the Mirai botnet, each device is set up to mimic a resource constrained factory IoT device.
+  Step 4: The development of the IoT software, in Python that scans the network, on either the local subnet or using a file containing host addresses, and then detects the vulnerable devices on the network using the same techniques that would be used during a Mirai infection.
+  Step 5: Further refinement of the Python software, which is called IoT Hawk. The software should be capable of carrying out various device hardening techniques, some of which are outlined in Section \ref{DA}
+  Step 6: The final step to once again carry out a Mirai attack on the newly hardened IoT devices to show the effectiveness of the technique in preventing Mirai infection.
+
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
@@ -96,7 +100,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
+* [Python](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
 
