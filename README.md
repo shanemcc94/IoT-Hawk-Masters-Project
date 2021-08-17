@@ -67,13 +67,6 @@ TABLE OF CONTENTS -->
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
-<p align="center">
-<a href="https://www.mtu.ie/">
-    <img src="https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png" alt="Logo" >
-  </a>
-</p>
-
 The main focus of the research project was to outline the current risks and security threats in the IoT landscape today and in particular IoT botnet attacks as well providing detailed techniques to mitigate and protect against these attacks. I believe it is very relevant today because of Covid-19 and the increase in use of IoT devices. Due to the global pandemic, people are working from home and looking for methods to make working from home easier. The implementation of various IoT devices is common in this environment, so it is important that the relevant security measures are in place in whatever network IoT devices are in use. These IoT devices often lack appropriate security measures due to OEM and developers favouring cheaper production cost over the implementation of strong security standards and protocols. 
 
 The Mirai Botnet is the most famous botnet attack relating to internet of things. A detailed analysis of the Mirai malware will be carried out, as well as the implementation of a sandbox environment for the safe execution and analysis of the source code. Mirai caused huge damage when it attacked the DNS service provide Dyn in 2016, so it is important to get an insight into how the botnet functions. From the analysis of the botnet and the research into IoT risks, various mitigation techniques will be proposed for the protection of IoT devices in a network.
