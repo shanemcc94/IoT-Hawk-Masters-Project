@@ -357,10 +357,9 @@ def device_harden(vuln_host, vuln_username, vuln_passw):
     print(f"{GREEN}\t\t[-] Randomizing Telnet port.{RESET}")
     print(f"{BLUE}\t\t\t[+] New SSH Telnet port chosen between 1024 & 32726:  {telnetport}{RESET}")
     ssh.exec_command('sudo sed -i \'s|23/tcp|' + telnetport + '/tcp|g\' /etc/services')
-    time.sleep(1)
     print(f"{GREEN}\t\t[-] Disabling Telnet  {RESET}")
     ssh.exec_command('sudo systemctl disable telnetd.service')
-
+    time.sleep(1)
     print(f"{GREEN}\t\t[-] Closing Vulnerable Ports  {RESET}")
     print(f"{BLUE}\t\t\t[+] Closing Port 48101  {RESET}")
     print(f"{BLUE}\t\t\t[+] Closing Ports 21,22,23,25  {RESET}")
@@ -382,8 +381,6 @@ def device_harden(vuln_host, vuln_username, vuln_passw):
     time.sleep(1)
     print(f"{GREEN}\t\t[-] Cleaning Up & Restarting Services {RESET}")
     ssh.exec_command('sudo systemctl daemon-reload')
-
-    ssh.exec_command('sudo systemctl disable telnet.d.service')
     ssh.exec_command('sudo /etc/init.d/ssh restart')
     ssh.exec_command('sudo reboot now')
     time.sleep(1)
@@ -402,7 +399,7 @@ def main():
     group = parser.add_mutually_exclusive_group()
     group.add_argument("-L", "--local", help="Local Switch", action='store_true')
     group.add_argument("-t", help="Filename for IP Addresses")
-    parser.add_argument("-p", help="Ports to Scan", required=True)
+    parser.add_argument("-p", help="Ports to Scan. Port 22 and 23 are always checked by default if not provided as CLA", required=True)
     parser.add_argument("-f", help="Filename Containing List of Credentials username:password", required=True)
     cl_args = parser.parse_args()
 
