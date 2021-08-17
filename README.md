@@ -30,7 +30,6 @@
     <img src="https://marketing.cit.ie/contentfiles/images/MTU/Logos/MTU-social-Profile-Logo.jpg" alt="Logo" width="280" height="280">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
 
 
 </p>
