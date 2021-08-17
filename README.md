@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://marketing.cit.ie/contentfiles/images/MTU/Logos/MTU_Logo_Colour_RGB_300dpi.jpg" alt="Logo" width="80" height="80">
+    <img src="https://marketing.cit.ie/contentfiles/images/MTU/Logos/MTU-social-Profile-Logo.jpg" alt="Logo" width="280" height="280">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
