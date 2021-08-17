@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://www.mtu.ie/">
     <img src="https://marketing.cit.ie/contentfiles/images/MTU/Logos/MTU-social-Profile-Logo.jpg" alt="Logo" width="280" height="280">
   </a>
 
@@ -77,7 +77,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<a href="https://www.mtu.ie/">
+    <img src="https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png" alt="Logo" >
+  </a>
 [![Product Name Screen Shot][https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png]](https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png)
 
 The main focus of the research project was to outline the current risks and security threats in the IoT landscape today and in particular IoT botnet attacks as well providing detailed techniques to mitigate and protect against these attacks. I believe it is very relevant today because of Covid-19 and the increase in use of IoT devices. Due to the global pandemic, people are working from home and looking for methods to make working from home easier. The implementation of various IoT devices is common in this environment, so it is important that the relevant security measures are in place in whatever network IoT devices are in use. These IoT devices often lack appropriate security measures due to OEM and developers favouring cheaper production cost over the implementation of strong security standards and protocols. 
