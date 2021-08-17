@@ -114,16 +114,16 @@ The architecture and implementation of my device hardening software, on a high-l
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- GETTING STARTED
+## Getting Started-->
 
 <!---This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.-->
 
-### Prerequisites
+<!---### Prerequisites
 
 
-### Installation
+### Installation-->
 
 <!---1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -186,20 +186,6 @@ Shane McCausland - [Personal Website](https://shanemccausland.com/) - shanemcc94
 Project Link: [https://github.com/shanemcc94/IoT-Hawk-Masters-Project](https://github.com/shanemcc94/IoT-Hawk-Masters-Project)
 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
