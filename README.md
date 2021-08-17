@@ -181,7 +181,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shane McCausland - [Personal Website](https://shanemccausland.com/) - shanemcc94@gmail.com - shane.mccausland@mycit.ie
+Shane McCausland - [Personal Website](https://shanemccausland.com/) -[Business Website](https://smcdev.ie/)- shanemcc94@gmail.com - shane.mccausland@mycit.ie
 
 Project Link: [https://github.com/shanemcc94/IoT-Hawk-Masters-Project](https://github.com/shanemcc94/IoT-Hawk-Masters-Project)
 
