@@ -77,10 +77,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+
+<p align="center">
 <a href="https://www.mtu.ie/">
     <img src="https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png" alt="Logo" >
   </a>
-[![Product Name Screen Shot][https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png]](https://shanemccausland.com/wp-content/uploads/2021/08/iot_hawk_logo.png)
+</p>
 
 The main focus of the research project was to outline the current risks and security threats in the IoT landscape today and in particular IoT botnet attacks as well providing detailed techniques to mitigate and protect against these attacks. I believe it is very relevant today because of Covid-19 and the increase in use of IoT devices. Due to the global pandemic, people are working from home and looking for methods to make working from home easier. The implementation of various IoT devices is common in this environment, so it is important that the relevant security measures are in place in whatever network IoT devices are in use. These IoT devices often lack appropriate security measures due to OEM and developers favouring cheaper production cost over the implementation of strong security standards and protocols. 
 
@@ -95,16 +98,15 @@ The architecture and implementation of my device hardening software, on a high-l
   Step 6: The final step to once again carry out a Mirai attack on the newly hardened IoT devices to show the effectiveness of the technique in preventing Mirai infection.
 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Python](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Python](https://www.python.org/)
+* [VMWare Workstation Pro](https://jquery.com)
+* [Busybox](https://www.busybox.net/) 
+* [Ubuntu Server](https://ubuntu.com/download/server)
+* [Debian](https://www.debian.org/)
 
 
 
