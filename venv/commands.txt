@@ -1,0 +1,17 @@
+sudo passwd
+    password + '\n
+    password + '\n
+sudo sed -i \'s|Port 22|Port ' + sshport + '|g\' /etc/ssh/sshd_config
+sudo sed -i \'s|22/tcp|' + sshport + '/tcp|g\' /etc/services
+sudo sed -i \'s|22/udp|' + sshport + '/udp|g\' /etc/services
+sudo sed -i \'s|23/tcp|' + telnetport + '/tcp|g\' /etc/services
+sudo systemctl disable telnetd.service')
+sudo kill $(sudo lsof -t -i:' + port +  --permanent
+sudo systemctl disable apache2 && sudo systemctl stop apache2
+/etc/init.d/apache2 stop --permanent
+sudo systemctl disable httpd
+sudo /etc/init.d/sendmail stop
+sudo systemctl daemon-reload
+sudo systemctl disable telnet.d.service
+sudo /etc/init.d/ssh restart
+sudo reboot now
