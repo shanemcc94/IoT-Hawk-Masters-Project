@@ -90,12 +90,12 @@ The main focus of the research project was to outline the current risks and secu
 The Mirai Botnet is the most famous botnet attack relating to internet of things. A detailed analysis of the Mirai malware will be carried out, as well as the implementation of a sandbox environment for the safe execution and analysis of the source code. Mirai caused huge damage when it attacked the DNS service provide Dyn in 2016, so it is important to get an insight into how the botnet functions. From the analysis of the botnet and the research into IoT risks, various mitigation techniques will be proposed for the protection of IoT devices in a network.
 
 The architecture and implementation of my device hardening software, on a high-level, is made up of various technologies and frameworks. To facilitate the development of the software and enable testing with the Mirai malware, a sandbox environment needs to be created using an isolated network of virtual machines. All the machines will be on the same subnet to facilitate intercommunication, but will be isolated from the host network for protection due to the execution of the Mirai source code. My implementation can be broken up into the following high-level steps:
-  *Step 1: The initialization and roll out of all the necessary virtual machines for the sandbox environment.
-  *Step 2: The configuration of each relevant component in the Mirai Botnet. An understanding of the released source-code is necessary here to understand the purpose of each     feature.
-  *Step 3: The execution of the Mirai malware, the goal of this step is to show that the preconfigured VM's simulating IoT devices are vulnerable to infection by the Mirai botnet, each device is set up to mimic a resource constrained factory IoT device.
-  *Step 4: The development of the IoT software, in Python that scans the network, on either the local subnet or using a file containing host addresses, and then detects the vulnerable devices on the network using the same techniques that would be used during a Mirai infection.
-  *Step 5: Further refinement of the Python software, which is called IoT Hawk. The software should be capable of carrying out various device hardening techniques, some of which are outlined in Section \ref{DA}
-  *Step 6: The final step to once again carry out a Mirai attack on the newly hardened IoT devices to show the effectiveness of the technique in preventing Mirai infection.
+*Step 1: The initialization and roll out of all the necessary virtual machines for the sandbox environment.
+*Step 2: The configuration of each relevant component in the Mirai Botnet. An understanding of the released source-code is necessary here to understand the purpose of each     feature.
+*Step 3: The execution of the Mirai malware, the goal of this step is to show that the preconfigured VM's simulating IoT devices are vulnerable to infection by the Mirai botnet, each device is set up to mimic a resource constrained factory IoT device.
+*Step 4: The development of the IoT software, in Python that scans the network, on either the local subnet or using a file containing host addresses, and then detects the vulnerable devices on the network using the same techniques that would be used during a Mirai infection.
+*Step 5: Further refinement of the Python software, which is called IoT Hawk. The software should be capable of carrying out various device hardening techniques, some of which are outlined in Section 
+*Step 6: The final step to once again carry out a Mirai attack on the newly hardened IoT devices to show the effectiveness of the technique in preventing Mirai infection.
 
 
 
